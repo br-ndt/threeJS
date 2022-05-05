@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+import ThreeJSScreen from "./ThreeJsScreen.js";
 
 const TestPage = () => {
   const { id } = useParams();
@@ -22,17 +23,10 @@ const TestPage = () => {
     }
   };
 
-  const pageBody = text.length ? (
-    <>
-      <p>Did you know?</p>
-      <p>{text}</p>
-    </>
-  ) : <p>awaiting fetch...</p>;
-
   return (
     <div className="page">
-      <h5>This is testPage #{id}</h5>
-      {pageBody}
+      <h5>ThreeJS</h5>
+      <ThreeJSScreen width={800} height={600}/>
     </div>
   );
 };
