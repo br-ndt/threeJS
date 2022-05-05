@@ -1,8 +1,8 @@
-# Express-React Boiler
+# ThreeJS
 
-ExpressJS app that serves `create-react-app` dev-server (with API proxy) for development, or serves the built/static `create-react-app` for staging/production.
+ExpressJS app that serves `create-react-app` dev-server (with API proxy) for development, or serves the built/static `create-react-app` for staging/production. Going to do some 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [express-eeact-boiler](https://github.com/br-ndt/express-react-boiler/)[Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
