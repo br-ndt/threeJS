@@ -33,7 +33,11 @@ const ThreeJSScreen = ({ width, height }) => {
     scene.add(createCube());
 
     animate();
-    // return () => mountRef.current.removeChild(renderer.domElement);
+    return () => {
+      if(mountRef.current) {
+        mountRef.current.removeChild(renderer.domElement);
+      }
+    }
   }, []);
 
   return (
